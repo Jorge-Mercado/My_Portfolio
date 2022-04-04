@@ -141,10 +141,10 @@ p {
     align-items: center;
 }
 
-.project-card {
+.card {
 
     width: 220px;
-    height: 400px;
+    height: 600px;
     box-shadow: 5px  5px 20px rgb(161, 160, 160);
 }
 
@@ -163,3 +163,23 @@ p {
     
 }
 
+.card-title {
+
+
+    color: rgb(20, 20, 97);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card-text {
+
+ font-size: 20px;
+
+}
+
+.card-img-top {
+
+    width: 280px;
+    padding: 10px;
+    border-radius: 20px;
+}
