@@ -7,14 +7,14 @@ body {
 body {
 
     font-family: 'poppins', sans-serif;
-    position : absolute;
+  /*  position : absolute; */
 	width : 100%;
-	height : 100%;
-    align-items: center;
+/*	height : 100%; */
+  /*  align-items: center; */
 }
 
 section {
-    justify-content: space-around;
+   
     background-color: white;
     
 }
@@ -22,21 +22,25 @@ section {
 
 .hero {
     
-    
+   
     background-color: #1c1d25;
-    height: 100vh;
+   box-sizing:content-box; 
+    height: 100vh; 
     color: white;
     font-size: 40px;
 }
 
 footer {
 
+    
+    /*align-items: flex-end; */
     height: 100px;
     background-color: black;
 }
 
 nav {
 
+    background: #1c1d25;
     display: flex;
     justify-content: space-between;
 }
@@ -154,6 +158,7 @@ p {
 
 .card {
 
+    margin-top: 20px;
     width: 220px;
     height: 600px;
     box-shadow: 5px  5px 20px rgb(161, 160, 160);
