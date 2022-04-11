@@ -65,7 +65,7 @@ h1 {
 
 h2 {
 
-    font-size: 50px;
+    font-size: 45px;
 }
 
 p {
@@ -139,8 +139,10 @@ p {
 }
 
 .personal-info {
-   
-    padding: 80px;
+    
+   /* justify-content: space-be; */
+    box-sizing: content-box;
+    padding: 50px;
 }
 
 .information {
@@ -152,6 +154,7 @@ p {
 .headshot {
 
     width: 280px;
+    padding-top: 5px;
    
 }
 
@@ -174,6 +177,14 @@ p {
     font-weight: bold;
 }
 
+.card-title2 {
+
+
+    color: rgb(20, 20, 97);
+    font-size: 26px;
+    font-weight: bold;
+}
+
 .card-text {
 
  font-size: 20px;
@@ -186,6 +197,8 @@ p {
     padding: 10px;
     border-radius: 20px;
 }
+
+
 
 
 
